@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these artifacts, please cite the paper."
+title: "STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving"
+authors:
+  - family-names: Hugglestone
+    given-names: James
+  - family-names: Chacko
+    given-names: Samuel Jacob
+  - family-names: Stoller
+    given-names: Dawson
+  - family-names: Schmidt
+    given-names: Ryan
+  - family-names: Liu
+    given-names: Xiuwen
+year: 2026
+conference:
+  name: "IEEE Cyber Awareness and Research Symposium (CARS)"
+url: "https://github.com/jawh3/striatum-ctf"

@@ -1,0 +1,16 @@
+id,name,category,provenance,redistribution,upstream_url,primary_artifact_sha256
+01,sample7,memory_corruption,Custom (FSU CIS 5627) heapsoflove,"spec-only (binary-only, no license)",,5648f8fb79dd9295651a1e36e4f36ee437aa7ce53ac20a620ffbf77d16f4ca97
+02,sample3,memory_corruption,picoCTF picoMini (redpwn) clutter-overflow,"link-only (CMU, all rights reserved)",https://play.picoctf.org,62290d20c2339bc50b990153570af1c3d1509aedccfad06b30820aad0292ae16
+03,sample5,memory_corruption,Custom (FSU) printshop,spec-only (no license),,44f1f878aa2a7dbdc373af6cba200879fa2fa5585fd889cfb5352179f71eec55
+04,format_string_3,memory_corruption,picoCTF format-string-3,link-only (CMU),https://play.picoctf.org,81b84287190adc6bebf3f5ca399f164e5e70948f8fd7c1f262972117a0044314
+05,sample2,reversing,Custom (FSU) pin_checker,"spec-only (binary-only, no license)",,3dbe00fb341a8d170979d837265a6603dbf11b845d90909f1df4095a8fcf8bd2
+06,angrs_00,reversing,angr_ctf tutorial 00_angr_find,link-only (GPL-3.0),https://github.com/jakespringer/angr_ctf,073d8209d161c7a673b3e9f4b1234ff081e6d4cf62f808093bc37c3dcc0aa664
+07,angrs_01,reversing,angr_ctf tutorial 01_angr_avoid,link-only (GPL-3.0),https://github.com/jakespringer/angr_ctf,4aa73f6534968b8338ac0b79f90cce70d810bf1cf1e06d8430a87e2ad2ed45ae
+08,sample6,reversing,Custom (FSU) Java reversing,spec-only (no license),,4dc4ba4997a86839d63970d528129b8020ea582962763114cbaa01f4b91b80a9
+09,sample8,web_exploitation,Custom (FSU) Flask session forgery,spec-only (no license),,1019edda8549939910a2702069af143abab854359a8782a55f2a3f8ac03e16f2
+10,sqli_revenge,web_exploitation,Custom (Austin Leach) SQLi+WAF,source included (permission granted),,a529d12a480dbab44e840d1a89d26cef02116f46015b021aa34f0a6c0dee0fcd
+11,SSTI2,web_exploitation,picoCTF 2025 SSTI2,link-only (CMU),https://play.picoctf.org,
+12,Input_Injection_1,web_exploitation,picoCTF picoMini,link-only (CMU),https://play.picoctf.org,efb74ada371c9e58fe4594b108eb771d0c8c1dcd642083164359ff7997069724
+13,sample1,cryptography,Custom (FSU) weak RSA,source included (permission granted),,c7c599f498ed91b27268614280ca0605dfe9e1880bb171d43dd342964f942a96
+14,angrs_02,cryptography,angr_ctf tutorial 02_angr_find_condition,link-only (GPL-3.0),https://github.com/jakespringer/angr_ctf,ba2ba43e2a9c12bd5d48cb528c198f2b106974a26d7ca76f5c490eb872b0ec31
+15,PowerAnalysis_Part_2,cryptography,picoCTF 2023 side-channel,link-only (CMU),https://play.picoctf.org,272cf0aa9a1fc17593164039862900631eb0589a17296ca6c37e7942b33eb533

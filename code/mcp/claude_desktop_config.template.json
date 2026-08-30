@@ -1,0 +1,57 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${STRIATUM_ROOT}/workspace"
+      ]
+    },
+    "angr": {
+      "command": "python3",
+      "args": [
+        "${STRIATUM_ROOT}/servers/angr/main.py"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "INFO"
+      }
+    },
+    "commands": {
+      "command": "python3",
+      "args": [
+        "${STRIATUM_ROOT}/servers/mcp-server-commands/main.py"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "INFO"
+      }
+    },
+    "gdb": {
+      "command": "node",
+      "args": [
+        "${STRIATUM_ROOT}/servers/mcp-gdb/build/index.js"
+      ]
+    },
+    "secops": {
+      "command": "python3",
+      "args": [
+        "${STRIATUM_ROOT}/servers/secops-mcp/main.py"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "INFO",
+        "PATH": "/usr/local/go/bin:${STRIATUM_ROOT}/go/bin:${STRIATUM_ROOT}/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      }
+    },
+    "ghidra": {
+      "command": "python3",
+      "args": [
+        "${STRIATUM_ROOT}/servers/GhidraMCP/bridge_mcp_ghidra.py",
+        "--ghidra-server",
+        "http://127.0.0.1:8080/"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
