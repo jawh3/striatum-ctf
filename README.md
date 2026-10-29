@@ -4,6 +4,9 @@ Artifacts for **"STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomou
 CTF Solving"** (IEEE CARS 2026), Hugglestone, Chacko, Stoller, Schmidt, and Liu,
 Florida State University.
 
+**Best Paper Award (1st Place), IEEE CARS 2026.** Preprint:
+[arXiv:2603.22577](https://arxiv.org/abs/2603.22577).
+
 This repository supports replication of the **protocol and the analysis**. It is
 not a turnkey exploit kit: per the paper's ethics statement, no exploit payloads
 or attack-template corpora are released. What that means concretely is spelled

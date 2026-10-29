@@ -2,7 +2,11 @@
 name = "striatum-angr-bridge"
 license = {text = "MIT"}
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "MCP server exposing angr symbolic execution to STRIATUM-CTF"
 requires-python = ">=3.10"
-dependencies = []
+# angr is the version reported in the paper. The mcp version used in the study was
+# not recorded; mcp 2.x renamed FastMCP, so this code needs the 1.x line.
+dependencies = [
+    "angr==9.2.176",
+    "mcp>=1,<2",
+]

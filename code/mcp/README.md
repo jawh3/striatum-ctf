@@ -15,3 +15,8 @@ servers, declared in `claude_desktop_config.template.json`:
 Run `install_servers.sh` with `STRIATUM_ROOT` set; see `patches/` for the exact
 third-party modifications. The `secops` server itself downloads the offensive
 CLI tools (nmap, nuclei, ffuf, …) at build time — none are redistributed here.
+
+The four Python servers (`angr`, `commands`, `secops`, `ghidra`) run under one
+`python3` and all use the 1.x `mcp` API, so install `mcp>=1,<2`: mcp 2.x renamed
+`FastMCP` and none of them will start under it. `angr-bridge` also needs
+`angr==9.2.176` (see its `pyproject.toml`).

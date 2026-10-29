@@ -1,18 +1,57 @@
 cff-version: 1.2.0
 message: "If you use these artifacts, please cite the paper."
+type: software
 title: "STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving"
 authors:
   - family-names: Hugglestone
     given-names: James
+    affiliation: Florida State University
   - family-names: Chacko
     given-names: Samuel Jacob
+    affiliation: Florida State University
   - family-names: Stoller
     given-names: Dawson
+    affiliation: Florida State University
   - family-names: Schmidt
     given-names: Ryan
+    affiliation: Florida State University
   - family-names: Liu
     given-names: Xiuwen
-year: 2026
-conference:
-  name: "IEEE Cyber Awareness and Research Symposium (CARS)"
+    affiliation: Florida State University
+license: MIT
+repository-code: "https://github.com/jawh3/striatum-ctf"
 url: "https://github.com/jawh3/striatum-ctf"
+preferred-citation:
+  type: conference-paper
+  title: "STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving"
+  authors:
+    - family-names: Hugglestone
+      given-names: James
+      affiliation: Florida State University
+    - family-names: Chacko
+      given-names: Samuel Jacob
+      affiliation: Florida State University
+    - family-names: Stoller
+      given-names: Dawson
+      affiliation: Florida State University
+    - family-names: Schmidt
+      given-names: Ryan
+      affiliation: Florida State University
+    - family-names: Liu
+      given-names: Xiuwen
+      affiliation: Florida State University
+  year: 2026
+  collection-title: "2026 IEEE Cyber Awareness and Research Symposium (CARS)"
+  conference:
+    name: "IEEE Cyber Awareness and Research Symposium (CARS)"
+    city: Grand Forks
+    region: ND
+    country: US
+    date-start: 2026-10-26
+    date-end: 2026-10-28
+  publisher:
+    name: IEEE
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2603.22577"
+      description: "arXiv preprint"
