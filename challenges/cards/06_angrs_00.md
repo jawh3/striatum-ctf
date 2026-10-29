@@ -8,7 +8,8 @@
 | Redistribution | link-only (GPL-3.0) |
 | Artifact | fetch from upstream (`../fetch_challenges.sh`) |
 | Upstream | https://github.com/jakespringer/angr_ctf |
-| SHA-256 (primary artifact) | `073d8209d161c7a673b3e9f4b1234ff081e6d4cf62f808093bc37c3dcc0aa664` |
+| SHA-256 (primary artifact) | `2735273606c50eed0611e8a2e57c63d1d649a892cbb8b8a8a26d7a0972e37ccf` |
+| Note | The study used a locally built binary. Upstream's `dist/` build is a different build and will not match this hash (see `../README.md`). |
 
 ## Measured result (successes of 3 per condition)
 

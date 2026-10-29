@@ -45,3 +45,8 @@ engineered from the published figure's vector content**, not measured directly;
 each curve's vertex count equals its final solve count. The competition **point
 totals (215 / 205 / 200) are not in any released artifact** — the scoreboard
 export was not retained — so this file carries solves, not points.
+
+Five teams' last solves fall between 241 and 254 minutes, past the event's
+scheduled four hours. This is consistent with the scoreboard staying open
+briefly past the scheduled close; the exact closing time was not recorded, and
+the times are as recovered from the figure.

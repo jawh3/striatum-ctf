@@ -7,7 +7,7 @@
 | Provenance | Custom (FSU) printshop |
 | Redistribution | spec-only (no license) |
 | Artifact | not redistributed — spec only |
-| SHA-256 (primary artifact) | `44f1f878aa2a7dbdc373af6cba200879fa2fa5585fd889cfb5352179f71eec55` |
+| SHA-256 (primary artifact) | `7190d5b340e15b533a4d1a7e496c97f0d7b4a212edf4b1ae7a21a60505ee07a4` |
 
 ## Measured result (successes of 3 per condition)
 

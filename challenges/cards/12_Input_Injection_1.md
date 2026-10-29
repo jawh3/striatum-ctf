@@ -8,7 +8,7 @@
 | Redistribution | link-only (CMU) |
 | Artifact | fetch from upstream (`../fetch_challenges.sh`) |
 | Upstream | https://play.picoctf.org |
-| SHA-256 (primary artifact) | `efb74ada371c9e58fe4594b108eb771d0c8c1dcd642083164359ff7997069724` |
+| SHA-256 (primary artifact) | `ed4e923508aa22d66d33a859d9d63bd90bb9a79f951970c868fd60c40ecf39f4` |
 
 ## Measured result (successes of 3 per condition)
 

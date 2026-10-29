@@ -16,6 +16,8 @@ fi
 echo "  angrs_00 -> $DEST/angr_ctf (00_angr_find)"
 echo "  angrs_01 -> $DEST/angr_ctf (01_angr_avoid)"
 echo "  angrs_02 -> $DEST/angr_ctf (02_angr_find_condition)"
+echo "  (upstream's dist/ binaries are different builds from the study's and will"
+echo "   not match manifest.csv; see README.md)"
 
 cat <<'NOTE'
 

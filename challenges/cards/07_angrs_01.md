@@ -9,6 +9,7 @@
 | Artifact | fetch from upstream (`../fetch_challenges.sh`) |
 | Upstream | https://github.com/jakespringer/angr_ctf |
 | SHA-256 (primary artifact) | `4aa73f6534968b8338ac0b79f90cce70d810bf1cf1e06d8430a87e2ad2ed45ae` |
+| Note | The study used a locally built binary. Upstream's `dist/` build is a different build and will not match this hash (see `../README.md`). |
 
 ## Measured result (successes of 3 per condition)
 

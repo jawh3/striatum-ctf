@@ -8,6 +8,7 @@
 | Redistribution | link-only (CMU) |
 | Artifact | fetch from upstream (`../fetch_challenges.sh`) |
 | Upstream | https://play.picoctf.org |
+| SHA-256 (primary artifact) | none: a live web instance with no downloadable file |
 
 ## Measured result (successes of 3 per condition)
 

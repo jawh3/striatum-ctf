@@ -7,7 +7,7 @@
 | Provenance | Custom (FSU) Java reversing |
 | Redistribution | spec-only (no license) |
 | Artifact | not redistributed — spec only |
-| SHA-256 (primary artifact) | `4dc4ba4997a86839d63970d528129b8020ea582962763114cbaa01f4b91b80a9` |
+| SHA-256 (primary artifact) | `c8d84c5521d09c27530f3751a3b6a467ae3986e3990b17251f89562bc1ab7440` |
 
 ## Measured result (successes of 3 per condition)
 

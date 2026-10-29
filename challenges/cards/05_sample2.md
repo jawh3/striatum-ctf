@@ -7,7 +7,7 @@
 | Provenance | Custom (FSU) pin_checker |
 | Redistribution | spec-only (binary-only, no license) |
 | Artifact | not redistributed — spec only |
-| SHA-256 (primary artifact) | `3dbe00fb341a8d170979d837265a6603dbf11b845d90909f1df4095a8fcf8bd2` |
+| SHA-256 (primary artifact) | `b997c637ebf8264c24a13a1a8261a814a5d89fcda124dea5365f123fb8621324` |
 
 ## Measured result (successes of 3 per condition)
 
