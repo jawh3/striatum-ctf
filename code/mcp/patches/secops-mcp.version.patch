@@ -1,0 +1,15 @@
+diff --git a/main.py b/main.py
+index 64b1e1e..d23594f 100644
+--- a/main.py
++++ b/main.py
+@@ -23,9 +23,7 @@ from tools.gospider import gospider_wrapper, gospider_crawl_with_filter
+ from tools.arjun import arjun_wrapper, arjun_bulk_scan, arjun_with_custom_payloads
+ 
+ # Create server
+-mcp = FastMCP(name="secops-mcp",
+-    version="1.0.0"
+-)
++mcp = FastMCP(name="secops-mcp")
+ 
+ 
+ @mcp.tool()

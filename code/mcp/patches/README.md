@@ -15,4 +15,7 @@ source is redistributed here (clone at the pinned commits via `install_servers.s
   `secops-mcp.version.patch`.
 
 ## mcp-gdb (signal-slot) @ edc125d — MIT (declared in package.json; upstream
-  ships no LICENSE file). Used unmodified; built with `npm run build`.
+  ships no LICENSE file). Source used unmodified; built with `npm run build`.
+- `mcp-gdb.package-lock.json`: the lockfile from the study. Upstream has none
+  at this commit, so `npm ci` cannot run without it; with it, `npm ci`
+  installs the exact dependency versions that were used.

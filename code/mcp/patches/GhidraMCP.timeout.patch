@@ -1,0 +1,25 @@
+diff --git a/bridge_mcp_ghidra.py b/bridge_mcp_ghidra.py
+index c492562..9d1d115 100644
+--- a/bridge_mcp_ghidra.py
++++ b/bridge_mcp_ghidra.py
+@@ -33,7 +33,7 @@ def safe_get(endpoint: str, params: dict = None) -> list:
+     url = urljoin(ghidra_server_url, endpoint)
+ 
+     try:
+-        response = requests.get(url, params=params, timeout=5)
++        response = requests.get(url, params=params, timeout=60)
+         response.encoding = 'utf-8'
+         if response.ok:
+             return response.text.splitlines()
+@@ -46,9 +46,9 @@ def safe_post(endpoint: str, data: dict | str) -> str:
+     try:
+         url = urljoin(ghidra_server_url, endpoint)
+         if isinstance(data, dict):
+-            response = requests.post(url, data=data, timeout=5)
++            response = requests.post(url, data=data, timeout=60)
+         else:
+-            response = requests.post(url, data=data.encode("utf-8"), timeout=5)
++            response = requests.post(url, data=data.encode("utf-8"), timeout=60)
+         response.encoding = 'utf-8'
+         if response.ok:
+             return response.text.strip()
